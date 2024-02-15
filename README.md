@@ -5,7 +5,7 @@ The best minecraft cheat client
 
 ## NOTICE
 
-* the source code will only be for version 1.0 anything after that is not going open source *
+### the source code will only be for version 1.0 anything after that is not going open source 
 
 key will always be 123 for free version!
 ## Authors
