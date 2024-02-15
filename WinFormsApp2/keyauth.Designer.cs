@@ -32,25 +32,26 @@
             login = new Button();
             KeyLabel = new Label();
             CloseLabel = new Label();
-            button1 = new Button();
             StartClient = new Button();
             SuspendLayout();
             // 
             // KeyBox
             // 
-            KeyBox.BackColor = SystemColors.ScrollBar;
-            KeyBox.Location = new Point(77, 161);
+            KeyBox.BackColor = Color.FromArgb(61, 84, 120);
+            KeyBox.BorderStyle = BorderStyle.None;
+            KeyBox.Location = new Point(151, 131);
             KeyBox.Name = "KeyBox";
-            KeyBox.Size = new Size(334, 23);
+            KeyBox.Size = new Size(200, 16);
             KeyBox.TabIndex = 0;
             KeyBox.TextChanged += textBox1_TextChanged;
             // 
             // login
             // 
-            login.BackColor = SystemColors.ActiveBorder;
+            login.BackColor = Color.FromArgb(61, 84, 120);
+            login.FlatStyle = FlatStyle.Flat;
             login.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             login.ForeColor = Color.White;
-            login.Location = new Point(144, 205);
+            login.Location = new Point(46, 194);
             login.Name = "login";
             login.Size = new Size(169, 34);
             login.TabIndex = 1;
@@ -61,7 +62,7 @@
             // KeyLabel
             // 
             KeyLabel.AutoSize = true;
-            KeyLabel.Location = new Point(31, 164);
+            KeyLabel.Location = new Point(116, 131);
             KeyLabel.Name = "KeyLabel";
             KeyLabel.Size = new Size(29, 15);
             KeyLabel.TabIndex = 2;
@@ -79,21 +80,13 @@
             CloseLabel.Text = "X";
             CloseLabel.Click += label2_Click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(155, 267);
-            button1.Name = "button1";
-            button1.Size = new Size(158, 23);
-            button1.TabIndex = 4;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // StartClient
             // 
-            StartClient.BackColor = SystemColors.ActiveBorder;
+            StartClient.BackColor = Color.FromArgb(61, 84, 120);
+            StartClient.FlatStyle = FlatStyle.Flat;
             StartClient.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             StartClient.ForeColor = Color.White;
-            StartClient.Location = new Point(144, 267);
+            StartClient.Location = new Point(268, 194);
             StartClient.Name = "StartClient";
             StartClient.Size = new Size(169, 34);
             StartClient.TabIndex = 5;
@@ -108,7 +101,6 @@
             BackColor = Color.FromArgb(28, 29, 38);
             ClientSize = new Size(471, 363);
             Controls.Add(StartClient);
-            Controls.Add(button1);
             Controls.Add(CloseLabel);
             Controls.Add(KeyLabel);
             Controls.Add(login);
@@ -133,7 +125,6 @@
         private Button login;
         private Label KeyLabel;
         private Label CloseLabel;
-        private Button button1;
         private Button StartClient;
     }
 }

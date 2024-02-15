@@ -14,6 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Siticone.Desktop.UI" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="main .cs">
       <SubType>Form</SubType>
     </Compile>

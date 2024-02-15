@@ -99,6 +99,12 @@ namespace WinFormsApp2
                 form1.Show();
                 cls();
             }
+            else if (entered_Key == key)
+            {
+                Form1 form1 = new Form1();
+                form1.Show();
+                cls();
+            }
             else
             {
                 MessageBox.Show("You must be logged in!");
